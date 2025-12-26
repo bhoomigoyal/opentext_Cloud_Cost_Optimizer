@@ -6,7 +6,8 @@
     "frontend": "Not specified",
     "backend": "Node.js",
     "database": "PostgreSQL",
-    "hosting": "AWS"
+    "hosting": "AWS",
+    "other": "Not specified"
   },
   "non_functional_requirements": []
 }

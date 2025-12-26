@@ -314,8 +314,7 @@ python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('API 
 ```powershell
 python -c "from src.llm_client import call_llm; result = call_llm('Return JSON only: {\"test\":\"ok\", \"status\":true}'); print('✅ LLM Result:', result)"
 ```
-**Expected:** Should print `✅ LLM Result: {'test': 'ok', 'status': True}`  
-**If error:** Check API key and model configuration
+**Expected:** Should print `✅ LLM Result: {'test': 'ok', 'status': True}` 
 
 ---
 
