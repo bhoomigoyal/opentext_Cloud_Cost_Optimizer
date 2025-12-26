@@ -80,7 +80,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Step 1: Create `.env` File
 Create a `.env` file in the project root directory:
