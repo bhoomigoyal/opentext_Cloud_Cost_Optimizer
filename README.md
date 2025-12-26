@@ -13,8 +13,8 @@ An intelligent cloud cost optimization tool that analyzes project descriptions, 
 - [Project Structure](#project-structure)
 - [Sample Output](#sample-output)
 - [Tools Used](#tools-used)
-- [Step-by-Step Testing](#step-by-step-testing)
-- [Troubleshooting](#troubleshooting)
+- [Step-by-Step manual Testing](#step-by-step-manual-testing)
+
 
 ## Overview
 
