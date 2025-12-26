@@ -60,8 +60,8 @@ This project implements an AI-powered cloud cost optimization system that:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd cloud-cost-optimizer
+git clone https://github.com/bhoomigoyal/opentext_Cloud_Cost_Optimizer
+cd opentext_Cloud_Cost_Optimizer
 ```
 
 ### Step 2: Create Virtual Environment

@@ -1,0 +1,181 @@
+{
+  "project_name": "Food Delivery App",
+  "analysis": {
+    "total_monthly_cost": 99250,
+    "budget": 50000,
+    "budget_variance": 49250,
+    "service_costs": {
+      "EC2": 21000,
+      "RDS": 13750,
+      "S3": 12000,
+      "CloudFront": 30000,
+      "DynamoDB": 5500,
+      "Lambda": 15000,
+      "CloudWatch": 2000
+    },
+    "high_cost_services": {
+      "CloudFront": 30000,
+      "EC2": 21000,
+      "Lambda": 15000
+    },
+    "is_over_budget": true
+  },
+  "recommendations": [
+    {
+      "title": "Migrate to Free Tier for DynamoDB",
+      "service": "DynamoDB",
+      "current_cost": 5500,
+      "potential_savings": 1100,
+      "recommendation_type": "free_tier",
+      "description": "DynamoDB offers a free tier for new tables with up to 25 read capacity units and 25 write capacity units. Migrating to this free tier can save 20% of the current cost.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Create a new DynamoDB table with free tier settings",
+        "Migrate existing data to the new table",
+        "Update application code to use the new table"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Optimize EC2 Instance Types",
+      "service": "EC2",
+      "current_cost": 21000,
+      "potential_savings": 4200,
+      "recommendation_type": "optimization",
+      "description": "EC2 instance types can be optimized to reduce costs. For example, downgrading from a t2.micro to a t2.nano instance can save 20% of the current cost.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Identify underutilized EC2 instances",
+        "Downgrade instance types to t2.nano",
+        "Monitor and adjust instance types as needed"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Use Open-Source Alternative for CloudWatch",
+      "service": "CloudWatch",
+      "current_cost": 2000,
+      "potential_savings": 400,
+      "recommendation_type": "open_source",
+      "description": "CloudWatch can be replaced with an open-source alternative like Prometheus. This can save 20% of the current cost.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Install and configure Prometheus",
+        "Migrate existing CloudWatch metrics to Prometheus",
+        "Update application code to use Prometheus"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Migrate to Cost-Effective Storage for S3",
+      "service": "S3",
+      "current_cost": 12000,
+      "potential_savings": 2400,
+      "recommendation_type": "cost-effective_storage",
+      "description": "S3 storage can be optimized to reduce costs. For example, using S3 Standard-IA instead of S3 Standard can save 20% of the current cost.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Identify infrequently accessed S3 objects",
+        "Migrate objects to S3 Standard-IA",
+        "Monitor and adjust storage settings as needed"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Use Multi-Cloud Provider for CloudFront",
+      "service": "CloudFront",
+      "current_cost": 30000,
+      "potential_savings": 6000,
+      "recommendation_type": "alternative_provider",
+      "description": "CloudFront can be replaced with a multi-cloud provider like Cloudflare. This can save 20% of the current cost.",
+      "implementation_effort": "high",
+      "risk_level": "high",
+      "steps": [
+        "Configure Cloudflare as a CDN",
+        "Migrate existing CloudFront distributions to Cloudflare",
+        "Update application code to use Cloudflare"
+      ],
+      "cloud_providers": [
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "title": "Right-Size Lambda Function Instances",
+      "service": "Lambda",
+      "current_cost": 15000,
+      "potential_savings": 3000,
+      "recommendation_type": "right_sizing",
+      "description": "Lambda function instances can be right-sized to reduce costs. For example, downgrading from a 128MB instance to a 64MB instance can save 20% of the current cost.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Identify underutilized Lambda functions",
+        "Downgrade function instances to 64MB",
+        "Monitor and adjust instance sizes as needed"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Use Free Tier for RDS",
+      "service": "RDS",
+      "current_cost": 13750,
+      "potential_savings": 2750,
+      "recommendation_type": "free_tier",
+      "description": "RDS offers a free tier for new instances with up to 750 hours of usage. Migrating to this free tier can save 20% of the current cost.",
+      "implementation_effort": "low",
+      "risk_level": "low",
+      "steps": [
+        "Create a new RDS instance with free tier settings",
+        "Migrate existing data to the new instance",
+        "Update application code to use the new instance"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    },
+    {
+      "title": "Optimize CloudFront Distribution Settings",
+      "service": "CloudFront",
+      "current_cost": 30000,
+      "potential_savings": 6000,
+      "recommendation_type": "optimization",
+      "description": "CloudFront distribution settings can be optimized to reduce costs. For example, enabling compression and caching can save 20% of the current cost.",
+      "implementation_effort": "medium",
+      "risk_level": "medium",
+      "steps": [
+        "Enable compression and caching on CloudFront distributions",
+        "Monitor and adjust distribution settings as needed",
+        "Update application code to use optimized distributions"
+      ],
+      "cloud_providers": [
+        "AWS"
+      ]
+    }
+  ],
+  "summary": {
+    "total_potential_savings": 25850,
+    "savings_percentage": 26.05,
+    "recommendations_count": 8,
+    "high_impact_recommendations": 0
+  }
+}

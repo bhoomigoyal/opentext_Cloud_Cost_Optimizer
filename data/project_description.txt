@@ -1,0 +1,5 @@
+I want to build a food delivery app.
+Backend: Node.js
+Database: PostgreSQL
+Hosting: AWS
+Budget: 50000 per month

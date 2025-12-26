@@ -1,0 +1,222 @@
+[
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "resource_id": "i-0123456789abcdef0",
+    "region": "us-east-1",
+    "usage_type": "On-Demand Instance Hours",
+    "usage_quantity": 240,
+    "unit": "hours",
+    "cost_inr": 15000,
+    "desc": "t2.micro instance for web server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-0123456789abcdef0",
+    "region": "ap-south-1",
+    "usage_type": "Provisioned IOPS Storage",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 8000,
+    "desc": "PostgreSQL database for orders and users"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "resource_id": "arn:aws:s3:::food-delivery-app-bucket",
+    "region": "eu-west-1",
+    "usage_type": "Request Hours",
+    "usage_quantity": 100000,
+    "unit": "requests",
+    "cost_inr": 2000,
+    "desc": "Static assets for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudFront",
+    "resource_id": "distributions/food-delivery-app-cloudfront",
+    "region": "us-west-2",
+    "usage_type": "Data Transfer Out",
+    "usage_quantity": 100000,
+    "unit": "GB",
+    "cost_inr": 15000,
+    "desc": "Content delivery for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "DynamoDB",
+    "resource_id": "table/food-delivery-app-dynamodb",
+    "region": "ap-northeast-1",
+    "usage_type": "Provisioned Throughput",
+    "usage_quantity": 100,
+    "unit": "read capacity units",
+    "cost_inr": 4000,
+    "desc": "Real-time orders and user data"
+  },
+  {
+    "month": "2025-01",
+    "service": "Lambda",
+    "resource_id": "function:food-delivery-app-lambda",
+    "region": "ca-central-1",
+    "usage_type": "Function Invocations",
+    "usage_quantity": 100000,
+    "unit": "invocations",
+    "cost_inr": 10000,
+    "desc": "Serverless functions for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "resource_id": "alarm:food-delivery-app-cloudwatch-alarm",
+    "region": "us-east-1",
+    "usage_type": "Log Group Storage",
+    "usage_quantity": 50,
+    "unit": "GB",
+    "cost_inr": 1000,
+    "desc": "Monitoring and logging for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "resource_id": "arn:aws:s3:::food-delivery-app-bucket/backup",
+    "region": "eu-west-1",
+    "usage_type": "Request Hours",
+    "usage_quantity": 50000,
+    "unit": "requests",
+    "cost_inr": 5000,
+    "desc": "Backup storage for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-0123456789abcdef1",
+    "region": "ap-south-1",
+    "usage_type": "Provisioned IOPS Storage",
+    "usage_quantity": 50,
+    "unit": "GB",
+    "cost_inr": 2000,
+    "desc": "PostgreSQL database for orders and users"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudFront",
+    "resource_id": "distributions/food-delivery-app-cloudfront",
+    "region": "us-west-2",
+    "usage_type": "Data Transfer Out",
+    "usage_quantity": 50000,
+    "unit": "GB",
+    "cost_inr": 7500,
+    "desc": "Content delivery for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "DynamoDB",
+    "resource_id": "table/food-delivery-app-dynamodb",
+    "region": "ap-northeast-1",
+    "usage_type": "Provisioned Throughput",
+    "usage_quantity": 50,
+    "unit": "read capacity units",
+    "cost_inr": 1000,
+    "desc": "Real-time orders and user data"
+  },
+  {
+    "month": "2025-01",
+    "service": "Lambda",
+    "resource_id": "function:food-delivery-app-lambda",
+    "region": "ca-central-1",
+    "usage_type": "Function Invocations",
+    "usage_quantity": 50000,
+    "unit": "invocations",
+    "cost_inr": 2500,
+    "desc": "Serverless functions for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "resource_id": "alarm:food-delivery-app-cloudwatch-alarm",
+    "region": "us-east-1",
+    "usage_type": "Log Group Storage",
+    "usage_quantity": 25,
+    "unit": "GB",
+    "cost_inr": 500,
+    "desc": "Monitoring and logging for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "resource_id": "arn:aws:s3:::food-delivery-app-bucket",
+    "region": "eu-west-1",
+    "usage_type": "Request Hours",
+    "usage_quantity": 50000,
+    "unit": "requests",
+    "cost_inr": 5000,
+    "desc": "Static assets for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "resource_id": "i-0123456789abcdef1",
+    "region": "us-east-1",
+    "usage_type": "On-Demand Instance Hours",
+    "usage_quantity": 120,
+    "unit": "hours",
+    "cost_inr": 6000,
+    "desc": "t2.micro instance for web server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "resource_id": "db-0123456789abcdef2",
+    "region": "ap-south-1",
+    "usage_type": "Provisioned IOPS Storage",
+    "usage_quantity": 75,
+    "unit": "GB",
+    "cost_inr": 3750,
+    "desc": "PostgreSQL database for orders and users"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudFront",
+    "resource_id": "distributions/food-delivery-app-cloudfront",
+    "region": "us-west-2",
+    "usage_type": "Data Transfer Out",
+    "usage_quantity": 50000,
+    "unit": "GB",
+    "cost_inr": 7500,
+    "desc": "Content delivery for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "DynamoDB",
+    "resource_id": "table/food-delivery-app-dynamodb",
+    "region": "ap-northeast-1",
+    "usage_type": "Provisioned Throughput",
+    "usage_quantity": 25,
+    "unit": "read capacity units",
+    "cost_inr": 500,
+    "desc": "Real-time orders and user data"
+  },
+  {
+    "month": "2025-01",
+    "service": "Lambda",
+    "resource_id": "function:food-delivery-app-lambda",
+    "region": "ca-central-1",
+    "usage_type": "Function Invocations",
+    "usage_quantity": 50000,
+    "unit": "invocations",
+    "cost_inr": 2500,
+    "desc": "Serverless functions for food delivery app"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "resource_id": "alarm:food-delivery-app-cloudwatch-alarm",
+    "region": "us-east-1",
+    "usage_type": "Log Group Storage",
+    "usage_quantity": 25,
+    "unit": "GB",
+    "cost_inr": 500,
+    "desc": "Monitoring and logging for food delivery app"
+  }
+]
